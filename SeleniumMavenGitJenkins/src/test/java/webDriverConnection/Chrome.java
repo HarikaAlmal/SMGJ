@@ -14,7 +14,8 @@ public class Chrome {
 		dr.get("https://www.orangehrm.com/");
 		dr.manage().window().maximize();
 		Thread.sleep(1000);
-		dr.close();
+		dr.close(); 
+		//changes
 		
 	}
 
