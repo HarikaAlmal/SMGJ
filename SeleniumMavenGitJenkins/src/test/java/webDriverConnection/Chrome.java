@@ -11,7 +11,11 @@ public class Chrome {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\harik\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
 		WebDriver dr = new ChromeDriver();
+		Thread.sleep(1000);
+		System.out.println("helloo___________________________________________");
 		dr.get("https://www.orangehrm.com/");
+		Thread.sleep(1000);
+		System.out.println("helloo___________________________________________");
 		dr.manage().window().maximize();
 		System.out.println("helloo___________________________________________");
 		Thread.sleep(1000);
