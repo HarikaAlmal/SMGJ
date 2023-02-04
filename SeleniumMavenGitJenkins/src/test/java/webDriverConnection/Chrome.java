@@ -13,6 +13,7 @@ public class Chrome {
 		WebDriver dr = new ChromeDriver();
 		dr.get("https://www.orangehrm.com/");
 		dr.manage().window().maximize();
+		System.out.println("helloo___________________________________________");
 		Thread.sleep(1000);
 		dr.close(); 
 		//changes
